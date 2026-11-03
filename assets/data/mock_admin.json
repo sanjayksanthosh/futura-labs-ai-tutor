@@ -1,0 +1,26 @@
+{
+  "students": [
+    {"id": "s1", "name": "Emma Wilson", "email": "emma@uni.edu", "avatar": "https://i.pravatar.cc/150?u=emma", "courseCount": 4, "completionRate": 78, "averageScore": 82, "lastActive": "2025-05-19T09:00:00.000", "status": "active"},
+    {"id": "s2", "name": "Liam Brown", "email": "liam@uni.edu", "avatar": "https://i.pravatar.cc/150?u=liam", "courseCount": 3, "completionRate": 65, "averageScore": 74, "lastActive": "2025-05-18T15:30:00.000", "status": "active"},
+    {"id": "s3", "name": "Sophia Davis", "email": "sophia@uni.edu", "avatar": "https://i.pravatar.cc/150?u=sophia", "courseCount": 5, "completionRate": 92, "averageScore": 95, "lastActive": "2025-05-19T11:00:00.000", "status": "active"},
+    {"id": "s4", "name": "Noah Martinez", "email": "noah@uni.edu", "avatar": "https://i.pravatar.cc/150?u=noah", "courseCount": 2, "completionRate": 45, "averageScore": 68, "lastActive": "2025-05-15T10:00:00.000", "status": "inactive"},
+    {"id": "s5", "name": "Olivia Taylor", "email": "olivia@uni.edu", "avatar": "https://i.pravatar.cc/150?u=olivia", "courseCount": 4, "completionRate": 88, "averageScore": 90, "lastActive": "2025-05-19T08:00:00.000", "status": "active"}
+  ],
+  "batches": [
+    {"id": "b1", "name": "CS 2025 Batch A", "course": "Machine Learning Fundamentals", "studentCount": 45, "avgProgress": 62, "avgScore": 75, "startDate": "2025-01-15", "endDate": "2025-06-30"},
+    {"id": "b2", "name": "CS 2025 Batch B", "course": "Python Programming Mastery", "studentCount": 52, "avgProgress": 78, "avgScore": 84, "startDate": "2025-02-01", "endDate": "2025-07-31"},
+    {"id": "b3", "name": "DS 2025 Batch", "course": "Data Structures & Algorithms", "studentCount": 38, "avgProgress": 35, "avgScore": 68, "startDate": "2025-03-01", "endDate": "2025-08-31"}
+  ],
+  "faculty": [
+    {"id": "f1", "name": "Dr. Sarah Chen", "email": "sarah.chen@uni.edu", "avatar": "https://i.pravatar.cc/150?u=sarahchen", "department": "Computer Science", "courses": 3, "students": 120, "rating": 4.8},
+    {"id": "f2", "name": "Alex Rivera", "email": "alex.rivera@uni.edu", "avatar": "https://i.pravatar.cc/150?u=alexrivera", "department": "Computer Science", "courses": 2, "students": 85, "rating": 4.9}
+  ],
+  "reports": {
+    "totalStudents": 135,
+    "activeStudents": 98,
+    "totalCourses": 5,
+    "averageCompletionRate": 72,
+    "averageScore": 81,
+    "totalHoursLearned": 2850
+  }
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "assessment_1",
+    "title": "Machine Learning Quiz - Week 1",
+    "courseId": "course_1",
+    "courseName": "Machine Learning Fundamentals",
+    "durationMinutes": 15,
+    "totalMarks": 100,
+    "difficulty": "Medium",
+    "scheduledDate": "2025-05-20T00:00:00.000",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the primary goal of supervised learning?",
+        "options": [
+          "To find patterns in unlabeled data",
+          "To learn a mapping from inputs to outputs using labeled data",
+          "To maximize reward through trial and error",
+          "To reduce dimensionality of data"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Supervised learning uses labeled training data to learn a function that maps inputs to outputs. The model learns from examples where the correct answer is provided.",
+        "category": "ML Basics",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following is NOT a type of machine learning?",
+        "options": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Reinforcement Learning",
+          "Transactional Learning"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Transactional Learning is not a recognized category of machine learning. The three main types are Supervised, Unsupervised, and Reinforcement Learning.",
+        "category": "ML Basics",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "q3",
+        "question": "What is the purpose of gradient descent in machine learning?",
+        "options": [
+          "To increase the learning rate",
+          "To minimize the cost function by updating model parameters",
+          "To add more data to the training set",
+          "To visualize data in lower dimensions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gradient descent is an optimization algorithm that iteratively adjusts model parameters to minimize the cost function, helping the model learn from data.",
+        "category": "Optimization",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "q4",
+        "question": "What does the ReLU activation function do?",
+        "options": [
+          "Outputs values between 0 and 1",
+          "Outputs the input directly if positive, otherwise outputs zero",
+          "Outputs the tanh of the input",
+          "Outputs a probability distribution"
+        ],
+        "correctAnswer": 1,
+        "explanation": "ReLU (Rectified Linear Unit) outputs the input value if it's positive, and zero otherwise. It's widely used due to its simplicity and effectiveness.",
+        "category": "Neural Networks",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "q5",
+        "question": "What is the difference between precision and recall?",
+        "options": [
+          "They are the same thing",
+          "Precision measures false positives, recall measures false negatives",
+          "Precision is for classification, recall is for regression",
+          "Precision measures accuracy, recall measures speed"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Precision measures how many of the positive predictions were correct (minimizing false positives), while recall measures how many of the actual positives were found (minimizing false negatives).",
+        "category": "Model Evaluation",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "id": "assessment_2",
+    "title": "Python Programming Test",
+    "courseId": "course_2",
+    "courseName": "Python Programming Mastery",
+    "durationMinutes": 20,
+    "totalMarks": 100,
+    "difficulty": "Easy",
+    "scheduledDate": "2025-05-22T00:00:00.000",
+    "questions": [
+      {
+        "id": "q6",
+        "question": "What is the correct way to create a list in Python?",
+        "options": [
+          "list = {1, 2, 3}",
+          "list = [1, 2, 3]",
+          "list = (1, 2, 3)",
+          "list = <1, 2, 3>"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Python, lists are created using square brackets []. Curly braces {} are for dictionaries and sets, parentheses () are for tuples.",
+        "category": "Python Basics",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "q7",
+        "question": "Which of the following is a mutable data type in Python?",
+        "options": [
+          "Tuple",
+          "String",
+          "List",
+          "Integer"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lists are mutable, meaning their elements can be changed after creation. Tuples, strings, and integers are immutable.",
+        "category": "Data Structures",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "q8",
+        "question": "What is the output of print(2 ** 3)?",
+        "options": ["6", "8", "9", "5"],
+        "correctAnswer": 1,
+        "explanation": "The ** operator performs exponentiation. 2 ** 3 = 2 × 2 × 2 = 8.",
+        "category": "Python Basics",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "id": "assessment_3",
+    "title": "DSA Problem Solving Challenge",
+    "courseId": "course_3",
+    "courseName": "Data Structures & Algorithms",
+    "durationMinutes": 30,
+    "totalMarks": 100,
+    "difficulty": "Hard",
+    "scheduledDate": "2025-05-25T00:00:00.000",
+    "questions": [
+      {
+        "id": "q9",
+        "question": "What is the time complexity of binary search?",
+        "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+        "correctAnswer": 1,
+        "explanation": "Binary search has O(log n) time complexity as it halves the search space with each comparison.",
+        "category": "Algorithms",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "q10",
+        "question": "Which data structure uses FIFO (First In, First Out) principle?",
+        "options": ["Stack", "Queue", "Tree", "Graph"],
+        "correctAnswer": 1,
+        "explanation": "A Queue follows the First In, First Out (FIFO) principle, where the first element added is the first to be removed.",
+        "category": "Data Structures",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "q11",
+        "question": "What is a balanced binary tree?",
+        "options": [
+          "A tree where all nodes have two children",
+          "A tree where the height difference between left and right subtrees is at most 1 for all nodes",
+          "A tree with equal number of nodes on each side",
+          "A tree that can only have leaf nodes"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A balanced binary tree maintains a height difference of at most 1 between left and right subtrees for every node, ensuring O(log n) operations.",
+        "category": "Trees",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "q12",
+        "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+        "options": [
+          "BFS",
+          "DFS",
+          "Dijkstra's Algorithm",
+          "Binary Search"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dijkstra's algorithm finds the shortest paths from a source node to all other nodes in a weighted graph with non-negative edge weights.",
+        "category": "Graphs",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+]

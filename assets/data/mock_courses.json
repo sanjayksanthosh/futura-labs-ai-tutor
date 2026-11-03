@@ -1,0 +1,267 @@
+[
+  {
+    "id": "course_1",
+    "title": "Machine Learning Fundamentals",
+    "description": "Learn the core concepts of machine learning including supervised and unsupervised learning, neural networks, and model evaluation. This course provides a comprehensive introduction to ML with hands-on projects.",
+    "instructor": "Dr. Sarah Chen",
+    "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400",
+    "category": "AI & Data Science",
+    "difficulty": "Intermediate",
+    "progress": 45,
+    "totalLessons": 12,
+    "completedLessons": 5,
+    "durationMinutes": 480,
+    "rating": 4.8,
+    "studentCount": 2341,
+    "isBookmarked": true,
+    "prerequisites": ["Basic Programming", "Statistics"],
+    "createdAt": "2025-01-15T00:00:00.000",
+    "lessons": [
+      {
+        "id": "lesson_1_1",
+        "title": "Introduction to Machine Learning",
+        "content": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. In this lesson, we explore the fundamental concepts that form the foundation of modern ML.\n\n## Key Concepts\n\n- **Supervised Learning**: Learning with labeled data\n- **Unsupervised Learning**: Finding patterns in unlabeled data\n- **Reinforcement Learning**: Learning through trial and error\n\n## Types of Machine Learning\n\n1. Supervised Learning\n   - Regression: Predicting continuous values\n   - Classification: Predicting categories\n\n2. Unsupervised Learning\n   - Clustering: Grouping similar data points\n   - Dimensionality Reduction: Reducing feature space\n\n3. Reinforcement Learning\n   - Agent-based learning\n   - Reward-based systems",
+        "videoUrl": null,
+        "durationMinutes": 35,
+        "isCompleted": true,
+        "isBookmarked": false,
+        "keyPoints": ["ML enables computers to learn from data", "Three main types: supervised, unsupervised, reinforcement", "Features and labels are fundamental concepts"],
+        "summary": "Machine learning is a transformative technology that allows computers to learn from data without explicit programming. This lesson covered the three main types: supervised, unsupervised, and reinforcement learning."
+      },
+      {
+        "id": "lesson_1_2",
+        "title": "Data Preprocessing & Feature Engineering",
+        "content": "Data preprocessing is a crucial step in the machine learning pipeline. Raw data is often messy and needs to be cleaned and transformed before it can be used effectively.\n\n## Data Cleaning Steps\n\n1. Handling missing values\n2. Removing duplicates\n3. Outlier detection and treatment\n\n## Feature Engineering Techniques\n\n- Feature scaling (Standardization, Normalization)\n- Feature encoding (One-hot, Label encoding)\n- Feature selection methods",
+        "videoUrl": null,
+        "durationMinutes": 40,
+        "isCompleted": true,
+        "isBookmarked": true,
+        "keyPoints": ["Data quality directly impacts model performance", "Feature engineering can significantly improve results", "Standardization vs Normalization"],
+        "summary": "This lesson covered the importance of data preprocessing and feature engineering in building effective machine learning models."
+      },
+      {
+        "id": "lesson_1_3",
+        "title": "Linear Regression & Gradient Descent",
+        "content": "Linear regression is one of the simplest and most widely used algorithms in machine learning. It models the relationship between input features and a continuous output variable.\n\n## Understanding Linear Regression\n\n$y = mx + b$\n\nWhere:\n- $y$ is the predicted value\n- $x$ is the input feature\n- $m$ is the slope\n- $b$ is the intercept\n\n## Gradient Descent Optimization\n\nGradient descent is an optimization algorithm used to minimize the cost function by iteratively updating model parameters.",
+        "videoUrl": null,
+        "durationMinutes": 45,
+        "isCompleted": false,
+        "isBookmarked": false,
+        "keyPoints": ["Linear regression predicts continuous values", "Gradient descent minimizes the cost function", "Learning rate affects convergence speed"],
+        "summary": "This lesson explained linear regression fundamentals and the gradient descent optimization algorithm used to train models."
+      },
+      {
+        "id": "lesson_1_4",
+        "title": "Neural Networks & Deep Learning",
+        "content": "Neural networks are computing systems inspired by biological neural networks. They form the foundation of deep learning, which has revolutionized AI in recent years.\n\n## Architecture\n\n- Input Layer\n- Hidden Layers\n- Output Layer\n\n## Activation Functions\n\n- ReLU (Rectified Linear Unit)\n- Sigmoid\n- Tanh\n- Softmax",
+        "videoUrl": null,
+        "durationMinutes": 50,
+        "isCompleted": false,
+        "isBookmarked": false,
+        "keyPoints": ["Neural networks mimic biological neurons", "Deep learning uses multiple hidden layers", "Activation functions introduce non-linearity"],
+        "summary": "Introduction to neural network architecture and activation functions that power deep learning models."
+      },
+      {
+        "id": "lesson_1_5",
+        "title": "Model Evaluation & Validation",
+        "content": "Evaluating model performance is critical to building reliable ML systems. This lesson covers various metrics and validation techniques.\n\n## Evaluation Metrics\n\n- Accuracy, Precision, Recall, F1-Score\n- Confusion Matrix\n- ROC Curve & AUC\n\n## Validation Techniques\n\n- Train/Test Split\n- Cross-Validation\n- Bootstrap",
+        "videoUrl": null,
+        "durationMinutes": 35,
+        "isCompleted": false,
+        "isBookmarked": false,
+        "keyPoints": ["Choose metrics based on problem type", "Cross-validation prevents overfitting", "Confusion matrix helps visualize performance"],
+        "summary": "Comprehensive overview of model evaluation metrics and validation techniques for reliable ML assessment."
+      }
+    ]
+  },
+  {
+    "id": "course_2",
+    "title": "Python Programming Mastery",
+    "description": "Master Python programming from basics to advanced concepts. Includes data structures, OOP, and real-world projects.",
+    "instructor": "Alex Rivera",
+    "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400",
+    "category": "Programming",
+    "difficulty": "Beginner",
+    "progress": 72,
+    "totalLessons": 10,
+    "completedLessons": 7,
+    "durationMinutes": 360,
+    "rating": 4.9,
+    "studentCount": 5678,
+    "isBookmarked": false,
+    "prerequisites": [],
+    "createdAt": "2025-02-01T00:00:00.000",
+    "lessons": [
+      {
+        "id": "lesson_2_1",
+        "title": "Getting Started with Python",
+        "content": "Python is a high-level, interpreted programming language known for its simplicity and readability.\n\n## Topics Covered\n- Python installation and setup\n- Your first Python program\n- Basic syntax and variables\n- Data types",
+        "videoUrl": null,
+        "durationMinutes": 30,
+        "isCompleted": true,
+        "isBookmarked": false,
+        "keyPoints": ["Python emphasizes readability", "Dynamic typing", "Interpreted language"],
+        "summary": "Introduction to Python programming language setup and basic syntax."
+      },
+      {
+        "id": "lesson_2_2",
+        "title": "Control Flow & Functions",
+        "content": "Learn about conditional statements, loops, and functions in Python.\n\n## Topics\n- If/elif/else statements\n- For and while loops\n- Defining functions\n- Lambda functions",
+        "videoUrl": null,
+        "durationMinutes": 35,
+        "isCompleted": true,
+        "isBookmarked": true,
+        "keyPoints": ["Indentation defines code blocks", "Functions promote code reuse", "Lambda for anonymous functions"],
+        "summary": "Understanding control flow mechanisms and function definitions in Python."
+      },
+      {
+        "id": "lesson_2_3",
+        "title": "Data Structures",
+        "content": "Python provides built-in data structures that are powerful and easy to use.\n\n## Data Structures\n- Lists and List comprehensions\n- Tuples\n- Dictionaries\n- Sets\n- Stacks and Queues",
+        "videoUrl": null,
+        "durationMinutes": 40,
+        "isCompleted": false,
+        "isBookmarked": false,
+        "keyPoints": ["Lists are mutable, tuples are immutable", "Dictionaries store key-value pairs", "Sets store unique elements"],
+        "summary": "Comprehensive guide to Python's built-in data structures."
+      }
+    ]
+  },
+  {
+    "id": "course_3",
+    "title": "Data Structures & Algorithms",
+    "description": "Comprehensive course on data structures and algorithms for technical interviews and problem-solving.",
+    "instructor": "Prof. James Wilson",
+    "thumbnail": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400",
+    "category": "Computer Science",
+    "difficulty": "Advanced",
+    "progress": 20,
+    "totalLessons": 15,
+    "completedLessons": 3,
+    "durationMinutes": 600,
+    "rating": 4.7,
+    "studentCount": 1890,
+    "isBookmarked": false,
+    "prerequisites": ["Basic Programming", "Python or Java"],
+    "createdAt": "2025-03-01T00:00:00.000",
+    "lessons": [
+      {
+        "id": "lesson_3_1",
+        "title": "Arrays & Strings",
+        "content": "Arrays and strings form the foundation of data structures.\n\n## Topics\n- Array manipulation\n- Two-pointer techniques\n- Sliding window\n- String algorithms",
+        "videoUrl": null,
+        "durationMinutes": 45,
+        "isCompleted": true,
+        "isBookmarked": false,
+        "keyPoints": ["Arrays provide O(1) access", "Two-pointer for sorted arrays", "Sliding window for subarray problems"],
+        "summary": "Fundamental array and string manipulation techniques."
+      },
+      {
+        "id": "lesson_3_2",
+        "title": "Linked Lists",
+        "content": "Linked lists are linear data structures where elements are stored in nodes.\n\n## Types\n- Singly linked lists\n- Doubly linked lists\n- Circular linked lists",
+        "videoUrl": null,
+        "durationMinutes": 40,
+        "isCompleted": true,
+        "isBookmarked": false,
+        "keyPoints": ["Dynamic size", "Sequential access", "Efficient insertions/deletions"],
+        "summary": "Understanding linked list data structure and its variants."
+      },
+      {
+        "id": "lesson_3_3",
+        "title": "Trees & Graphs",
+        "content": "Trees and graphs are hierarchical data structures essential for many algorithms.\n\n## Topics\n- Binary trees and BST\n- Tree traversals\n- Graph representations\n- BFS and DFS",
+        "videoUrl": null,
+        "durationMinutes": 50,
+        "isCompleted": false,
+        "isBookmarked": false,
+        "keyPoints": ["Trees are acyclic graphs", "BST enables O(log n) search", "BFS/DFS for graph exploration"],
+        "summary": "Introduction to tree and graph data structures with traversal algorithms."
+      }
+    ]
+  },
+  {
+    "id": "course_4",
+    "title": "Natural Language Processing",
+    "description": "Learn NLP techniques including text processing, sentiment analysis, and transformer models.",
+    "instructor": "Dr. Emily Park",
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
+    "category": "AI & Data Science",
+    "difficulty": "Advanced",
+    "progress": 0,
+    "totalLessons": 10,
+    "completedLessons": 0,
+    "durationMinutes": 420,
+    "rating": 4.6,
+    "studentCount": 1234,
+    "isBookmarked": false,
+    "prerequisites": ["Python", "Machine Learning Basics"],
+    "createdAt": "2025-04-01T00:00:00.000",
+    "lessons": [
+      {
+        "id": "lesson_4_1",
+        "title": "Text Processing & Regex",
+        "content": "Text preprocessing is essential for NLP tasks.\n\n## Topics\n- Tokenization\n- Stemming and Lemmatization\n- Regular expressions\n- Stop word removal",
+        "videoUrl": null,
+        "durationMinutes": 35,
+        "isCompleted": false,
+        "isBookmarked": false,
+        "keyPoints": ["Tokenization splits text into units", "Lemmatization is more accurate than stemming", "Regex enables pattern matching"],
+        "summary": "Fundamentals of text preprocessing for NLP applications."
+      }
+    ]
+  },
+  {
+    "id": "course_5",
+    "title": "Mobile App Development with Flutter",
+    "description": "Build beautiful cross-platform mobile apps using Flutter and Dart.",
+    "instructor": "Maria Garcia",
+    "thumbnail": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400",
+    "category": "Mobile Development",
+    "difficulty": "Intermediate",
+    "progress": 15,
+    "totalLessons": 12,
+    "completedLessons": 2,
+    "durationMinutes": 480,
+    "rating": 4.9,
+    "studentCount": 3456,
+    "isBookmarked": true,
+    "prerequisites": ["Basic Programming"],
+    "createdAt": "2025-02-15T00:00:00.000",
+    "lessons": [
+      {
+        "id": "lesson_5_1",
+        "title": "Introduction to Flutter",
+        "content": "Flutter is Google's UI toolkit for building natively compiled applications.\n\n## Topics\n- What is Flutter?\n- Widget tree concept\n- Stateless vs Stateful widgets\n- Hot reload",
+        "videoUrl": null,
+        "durationMinutes": 30,
+        "isCompleted": true,
+        "isBookmarked": false,
+        "keyPoints": ["Single codebase for multiple platforms", "Everything is a widget", "Hot reload for fast development"],
+        "summary": "Introduction to Flutter framework and its core concepts."
+      },
+      {
+        "id": "lesson_5_2",
+        "title": "Widgets & Layouts",
+        "content": "Master Flutter's layout system and common widgets.\n\n## Widgets\n- Container, Row, Column\n- Stack, Expanded\n- ListView, GridView\n- Custom widgets",
+        "videoUrl": null,
+        "durationMinutes": 40,
+        "isCompleted": true,
+        "isBookmarked": false,
+        "keyPoints": ["Compose widgets for complex UIs", "Flexible layouts with Row/Column", "ListView for scrollable content"],
+        "summary": "Understanding Flutter's widget composition and layout system."
+      },
+      {
+        "id": "lesson_5_3",
+        "title": "State Management",
+        "content": "Learn different state management approaches in Flutter.\n\n## Approaches\n- setState\n- Provider\n- Riverpod\n- Bloc\n- GetX",
+        "videoUrl": null,
+        "durationMinutes": 45,
+        "isCompleted": false,
+        "isBookmarked": false,
+        "keyPoints": ["State management is crucial for complex apps", "Provider is recommended by Google", "Choose based on app complexity"],
+        "summary": "Overview of state management solutions in Flutter."
+      }
+    ]
+  }
+]

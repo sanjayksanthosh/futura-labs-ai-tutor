@@ -1,0 +1,41 @@
+[
+  {
+    "id": "act_1",
+    "type": "lesson",
+    "title": "Completed: Introduction to ML",
+    "description": "You finished the first lesson of Machine Learning Fundamentals",
+    "courseName": "Machine Learning Fundamentals",
+    "timestamp": "2025-05-19T10:00:00.000"
+  },
+  {
+    "id": "act_2",
+    "type": "quiz",
+    "title": "Quiz Score: 85%",
+    "description": "Python Programming Test - Week 2",
+    "courseName": "Python Programming Mastery",
+    "timestamp": "2025-05-18T14:30:00.000"
+  },
+  {
+    "id": "act_3",
+    "type": "achievement",
+    "title": "7-Day Streak!",
+    "description": "You've been learning for 7 consecutive days",
+    "timestamp": "2025-05-19T00:00:00.000"
+  },
+  {
+    "id": "act_4",
+    "type": "course",
+    "title": "Started: Data Structures & Algorithms",
+    "description": "You enrolled in a new course",
+    "courseName": "Data Structures & Algorithms",
+    "timestamp": "2025-05-17T09:00:00.000"
+  },
+  {
+    "id": "act_5",
+    "type": "assignment",
+    "title": "Assignment Graded: Flutter UI",
+    "description": "Your assignment scored 92/100",
+    "courseName": "Mobile App Development with Flutter",
+    "timestamp": "2025-05-16T16:00:00.000"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "user_1",
+    "name": "Alex Johnson",
+    "email": "alex@example.com",
+    "avatar": "https://i.pravatar.cc/150?u=alex",
+    "role": "student",
+    "institution": "Tech University",
+    "streak": 7,
+    "totalCourses": 5,
+    "completedLessons": 17,
+    "aiScore": 78,
+    "weeklyProgress": 65,
+    "lastActive": "2025-05-19T10:30:00.000"
+  },
+  {
+    "id": "user_2",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "avatar": "https://i.pravatar.cc/150?u=admin",
+    "role": "admin",
+    "institution": "FuturaLabs Ai Tutor",
+    "streak": 30,
+    "totalCourses": 0,
+    "completedLessons": 0,
+    "aiScore": 0,
+    "weeklyProgress": 0,
+    "lastActive": "2025-05-19T14:00:00.000"
+  }
+]

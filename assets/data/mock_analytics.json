@@ -1,0 +1,89 @@
+{
+  "id": "analytics_1",
+  "userId": "user_1",
+  "weeklyProgress": [
+    {"day": "Mon", "hours": 2, "lessonsCompleted": 3, "quizzesTaken": 1},
+    {"day": "Tue", "hours": 1, "lessonsCompleted": 2, "quizzesTaken": 0},
+    {"day": "Wed", "hours": 3, "lessonsCompleted": 4, "quizzesTaken": 2},
+    {"day": "Thu", "hours": 1.5, "lessonsCompleted": 2, "quizzesTaken": 1},
+    {"day": "Fri", "hours": 2.5, "lessonsCompleted": 3, "quizzesTaken": 1},
+    {"day": "Sat", "hours": 0.5, "lessonsCompleted": 1, "quizzesTaken": 0},
+    {"day": "Sun", "hours": 1, "lessonsCompleted": 1, "quizzesTaken": 0}
+  ],
+  "skills": [
+    {"name": "Python", "proficiency": 85, "category": "Programming"},
+    {"name": "Machine Learning", "proficiency": 62, "category": "AI"},
+    {"name": "Data Structures", "proficiency": 45, "category": "CS"},
+    {"name": "Algorithms", "proficiency": 50, "category": "CS"},
+    {"name": "Flutter", "proficiency": 30, "category": "Mobile"},
+    {"name": "NLP", "proficiency": 15, "category": "AI"},
+    {"name": "Statistics", "proficiency": 70, "category": "Math"}
+  ],
+  "heatmap": [
+    {"date": "2025-05-13", "intensity": 3, "label": "3 hours"},
+    {"date": "2025-05-14", "intensity": 2, "label": "2 hours"},
+    {"date": "2025-05-15", "intensity": 4, "label": "4 hours"},
+    {"date": "2025-05-16", "intensity": 1, "label": "1 hour"},
+    {"date": "2025-05-17", "intensity": 3, "label": "3 hours"},
+    {"date": "2025-05-18", "intensity": 0, "label": "0 hours"},
+    {"date": "2025-05-19", "intensity": 2, "label": "2 hours"}
+  ],
+  "performance": [
+    {
+      "subject": "Machine Learning",
+      "scores": [65, 72, 78, 85, 82, 88],
+      "labels": ["Quiz 1", "Quiz 2", "Quiz 3", "Midterm", "Quiz 4", "Final"]
+    },
+    {
+      "subject": "Python",
+      "scores": [80, 85, 90, 88, 92, 95],
+      "labels": ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6"]
+    },
+    {
+      "subject": "DSA",
+      "scores": [45, 55, 60, 58, 65, 70],
+      "labels": ["Test 1", "Test 2", "Test 3", "Test 4", "Test 5", "Test 6"]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec_1",
+      "title": "Review Tree Data Structures",
+      "description": "Your performance in tree-related questions needs improvement. Practice more binary tree problems.",
+      "type": "course",
+      "priority": "high"
+    },
+    {
+      "id": "rec_2",
+      "title": "Complete NLP Module",
+      "description": "You've shown interest in AI. Start the Natural Language Processing course to expand your skills.",
+      "type": "course",
+      "priority": "medium"
+    },
+    {
+      "id": "rec_3",
+      "title": "Practice Dynamic Programming",
+      "description": "DP is a common interview topic. Start with basic problems and work your way up.",
+      "type": "practice",
+      "priority": "high"
+    },
+    {
+      "id": "rec_4",
+      "title": "Review Statistics Fundamentals",
+      "description": "Strengthen your statistics foundation for better ML model understanding.",
+      "type": "resource",
+      "priority": "low"
+    }
+  ],
+  "completionStats": {
+    "totalCourses": 5,
+    "completedCourses": 1,
+    "totalLessons": 59,
+    "completedLessons": 17,
+    "totalQuizzes": 12,
+    "completedQuizzes": 8,
+    "totalAssignments": 6,
+    "submittedAssignments": 4,
+    "totalHoursLearned": 42
+  }
+}
