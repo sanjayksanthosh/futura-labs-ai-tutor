@@ -130,7 +130,7 @@ lib/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourorg/futura_labs_ai_tutor.git
+git clone https://github.com/sanjayksanthosh/futura-labs-ai-tutor.git
 
 # Navigate to project
 cd futura_labs_ai_tutor
