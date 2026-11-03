@@ -119,6 +119,13 @@ lib/
 └── main.dart            # App entry with MultiProvider
 ```
 
+
+## Demo video
+
+<video src="https://raw.githubusercontent.com/sanjayksanthosh/futura-labs-ai-tutor/master/docs/video/aitutor-brag.mp4" poster="https://raw.githubusercontent.com/sanjayksanthosh/futura-labs-ai-tutor/master/docs/video/aitutor-brag.jpg" controls width="100%"></video>
+
+[Download the MP4](docs/video/aitutor-brag.mp4) · [Poster](docs/video/aitutor-brag.jpg)
+
 ## Getting Started
 
 ### Prerequisites
